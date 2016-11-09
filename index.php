@@ -17,7 +17,7 @@ include_once 'connection.php';
                     <th>Prelim</th>
                     <th>Midterm</th>
                     <th>Finals</th>
-					<th>Average</th>
+		    <th>Average</th>
                 </tr>
                 <?php
                 $datas = $c->query("SELECT * FROM datas");
